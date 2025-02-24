@@ -1,0 +1,261 @@
+// You can use more classes than in bootstrap
+$spaceamounts: (6,7,8,9);
+$multi: 0.7;
+
+@each $s in $spaceamounts {
+  .m-#{$s} {
+    margin: #{$s * $multi}rem !important;
+  }
+  .my-#{$s} {
+    margin-top: #{$s * $multi}rem !important;
+    margin-bottom: #{$s * $multi}rem !important;
+  }
+  .mx-#{$s} {
+    margin-left: #{$s * $multi}rem !important;
+    margin-right: #{$s * $multi}rem !important;
+  }
+  .mt-#{$s} {
+    margin-top: #{$s * $multi}rem !important;
+  }
+  .mb-#{$s} {
+    margin-bottom: #{$s * $multi}rem !important;
+  }
+  .ms-#{$s} {
+    margin-left: #{$s * $multi}rem !important;
+  }
+  .me-#{$s} {
+    margin-right: #{$s * $multi}rem !important;
+  }
+
+  .p-#{$s} {
+    padding: #{$s * $multi}rem !important;
+  }
+  .py-#{$s} {
+    padding-top: #{$s * $multi}rem !important;
+    padding-bottom: #{$s * $multi}rem !important;
+  }
+  .px-#{$s} {
+    padding-left: #{$s * $multi}rem !important;
+    padding-right: #{$s * $multi}rem !important;
+  }
+  .pt-#{$s} {
+    padding-top: #{$s * $multi}rem !important;
+  }
+  .pb-#{$s} {
+    padding-bottom: #{$s * $multi}rem !important;
+  }
+  .ps-#{$s} {
+    padding-left: #{$s * $multi}rem !important;
+  }
+  .pe-#{$s} {
+    padding-right: #{$s * $multi}rem !important;
+  }
+}
+
+@each $s in $spaceamounts {
+  @media (min-width: 768px) {
+  .m-md-#{$s} {
+    margin: #{$s * $multi}rem !important;
+  }
+  .my-md-#{$s} {
+    margin-top: #{$s * $multi}rem !important;
+    margin-bottom: #{$s * $multi}rem !important;
+  }
+  .mx-md-#{$s} {
+    margin-left: #{$s * $multi}rem !important;
+    margin-right: #{$s * $multi}rem !important;
+  }
+  .mt-md-#{$s} {
+    margin-top: #{$s * $multi}rem !important;
+  }
+  .mb-md-#{$s} {
+    margin-bottom: #{$s * $multi}rem !important;
+  }
+  .ms-md-#{$s} {
+    margin-left: #{$s * $multi}rem !important;
+  }
+  .me-md-#{$s} {
+    margin-right: #{$s * $multi}rem !important;
+  }
+
+  .p-md-#{$s} {
+    padding: #{$s * $multi}rem !important;
+  }
+  .py-md-#{$s} {
+    padding-top: #{$s * $multi}rem !important;
+    padding-bottom: #{$s * $multi}rem !important;
+  }
+  .px-md-#{$s} {
+    padding-left: #{$s * $multi}rem !important;
+    padding-right: #{$s * $multi}rem !important;
+  }
+  .pt-md-#{$s} {
+    padding-top: #{$s * $multi}rem !important;
+  }
+  .pb-md-#{$s} {
+    padding-bottom: #{$s * $multi}rem !important;
+  }
+  .ps-md-#{$s} {
+    padding-left: #{$s * $multi}rem !important;
+  }
+  .pe-md-#{$s} {
+    padding-right: #{$s * $multi}rem !important;
+  }
+}
+}
+
+@each $s in $spaceamounts {
+  @media (min-width: 992px) {
+  .m-lg-#{$s} {
+    margin: #{$s * $multi}rem !important;
+  }
+  .my-lg-#{$s} {
+    margin-top: #{$s * $multi}rem !important;
+    margin-bottom: #{$s * $multi}rem !important;
+  }
+  .mx-lg-#{$s} {
+    margin-left: #{$s * $multi}rem !important;
+    margin-right: #{$s * $multi}rem !important;
+  }
+  .mt-lg-#{$s} {
+    margin-top: #{$s * $multi}rem !important;
+  }
+  .mb-lg-#{$s} {
+    margin-bottom: #{$s * $multi}rem !important;
+  }
+  .ms-lg-#{$s} {
+    margin-left: #{$s * $multi}rem !important;
+  }
+  .me-lg-#{$s} {
+    margin-right: #{$s * $multi}rem !important;
+  }
+
+  .p-lg-#{$s} {
+    padding: #{$s * $multi}rem !important;
+  }
+  .py-lg-#{$s} {
+    padding-top: #{$s * $multi}rem !important;
+    padding-bottom: #{$s * $multi}rem !important;
+  }
+  .px-lg-#{$s} {
+    padding-left: #{$s * $multi}rem !important;
+    padding-right: #{$s * $multi}rem !important;
+  }
+  .pt-lg-#{$s} {
+    padding-top: #{$s * $multi}rem !important;
+  }
+  .pb-lg-#{$s} {
+    padding-bottom: #{$s * $multi}rem !important;
+  }
+  .ps-lg-#{$s} {
+    padding-left: #{$s * $multi}rem !important;
+  }
+  .pe-lg-#{$s} {
+    padding-right: #{$s * $multi}rem !important;
+  }
+}
+}
+
+@each $s in $spaceamounts {
+  @media (min-width: 1200px) {
+  .m-xlg-#{$s} {
+    margin: #{$s * $multi}rem !important;
+  }
+  .my-xlg-#{$s} {
+    margin-top: #{$s * $multi}rem !important;
+    margin-bottom: #{$s * $multi}rem !important;
+  }
+  .mx-xlg-#{$s} {
+    margin-left: #{$s * $multi}rem !important;
+    margin-right: #{$s * $multi}rem !important;
+  }
+  .mt-xlg-#{$s} {
+    margin-top: #{$s * $multi}rem !important;
+  }
+  .mb-xlg-#{$s} {
+    margin-bottom: #{$s * $multi}rem !important;
+  }
+  .ms-xlg-#{$s} {
+    margin-left: #{$s * $multi}rem !important;
+  }
+  .me-xlg-#{$s} {
+    margin-right: #{$s * $multi}rem !important;
+  }
+
+  .p-xlg-#{$s} {
+    padding: #{$s * $multi}rem !important;
+  }
+  .py-xlg-#{$s} {
+    padding-top: #{$s * $multi}rem !important;
+    padding-bottom: #{$s * $multi}rem !important;
+  }
+  .px-xlg-#{$s} {
+    padding-left: #{$s * $multi}rem !important;
+    padding-right: #{$s * $multi}rem !important;
+  }
+  .pt-xlg-#{$s} {
+    padding-top: #{$s * $multi}rem !important;
+  }
+  .pb-xlg-#{$s} {
+    padding-bottom: #{$s * $multi}rem !important;
+  }
+  .ps-xlg-#{$s} {
+    padding-left: #{$s * $multi}rem !important;
+  }
+  .pe-xlg-#{$s} {
+    padding-right: #{$s * $multi}rem !important;
+  }
+}
+}
+
+@each $s in $spaceamounts {
+  @media (min-width: 1400px) {
+  .m-xxl-#{$s} {
+    margin: #{$s * $multi}rem !important;
+  }
+  .my-xxl-#{$s} {
+    margin-top: #{$s * $multi}rem !important;
+    margin-bottom: #{$s * $multi}rem !important;
+  }
+  .mx-xxl-#{$s} {
+    margin-left: #{$s * $multi}rem !important;
+    margin-right: #{$s * $multi}rem !important;
+  }
+  .mt-xxl-#{$s} {
+    margin-top: #{$s * $multi}rem !important;
+  }
+  .mb-xxl-#{$s} {
+    margin-bottom: #{$s * $multi}rem !important;
+  }
+  .ms-xxl-#{$s} {
+    margin-left: #{$s * $multi}rem !important;
+  }
+  .me-xxl-#{$s} {
+    margin-right: #{$s * $multi}rem !important;
+  }
+
+  .p-xxl-#{$s} {
+    padding: #{$s * $multi}rem !important;
+  }
+  .py-xxl-#{$s} {
+    padding-top: #{$s * $multi}rem !important;
+    padding-bottom: #{$s * $multi}rem !important;
+  }
+  .px-xxl-#{$s} {
+    padding-left: #{$s * $multi}rem !important;
+    padding-right: #{$s * $multi}rem !important;
+  }
+  .pt-xxl-#{$s} {
+    padding-top: #{$s * $multi}rem !important;
+  }
+  .pb-xxl-#{$s} {
+    padding-bottom: #{$s * $multi}rem !important;
+  }
+  .ps-xxl-#{$s} {
+    padding-left: #{$s * $multi}rem !important;
+  }
+  .pe-xxl-#{$s} {
+    padding-right: #{$s * $multi}rem !important;
+  }
+}
+}

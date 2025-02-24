@@ -1,0 +1,16 @@
+.faq {
+  background-color: #F5F5F5;
+
+  &-img {
+    position: relative;
+
+    @media (min-width: 992px) {
+      &::before {
+        content: url("../images/elements/v-element.svg");
+        position: absolute;
+        top: 150px;
+        right: -20px;
+      }
+    }
+  }
+}

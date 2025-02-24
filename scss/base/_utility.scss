@@ -1,0 +1,101 @@
+// .dk is Damiankoduje.pl classes
+
+// Primary
+.dk-bg-primary{
+  background-color: $dk-primary !important;
+}
+.dk-text-primary {
+color: $dk-primary !important;
+}
+
+// Secondary
+.dk-bg-secondary{
+  background-color: $dk-secondary !important;
+}
+.dk-text-secondary{
+  color: $dk-secondary!important;
+}
+
+// Info
+.dk-bg-info{
+  background-color: $dk-info !important;
+}
+.dk-text-info{
+  color: $dk-info!important;
+}
+
+// danger
+.dk-bg-danger{
+  background-color: $dk-danger !important;
+}
+.dk-text-danger{
+  color: $dk-danger!important;
+}
+
+// light
+.dk-bg-light{
+  background-color: $dk-light !important;
+}
+.dk-text-light{
+  color: $dk-light!important;
+}
+
+// dark
+.dk-bg-dark{
+  background-color: $dk-dark !important;
+}
+.dk-text-dark{
+  color: $dk-dark!important;
+}
+
+// Gray
+.dk-bg-gray{
+  background-color: $dk-gray !important;
+}
+.dk-text-gray{
+  color: $dk-gray!important;
+}
+
+// Font size text display
+.dk-display-{
+  &1,&2,&3,&4,&5,&6 {
+    font-weight: 600;
+    line-height: 1.2;
+  }
+}
+.dk-display-{
+  &1 {
+    font-size: 5rem;
+  }
+  &2 {
+    font-size: 2.5rem;
+  }
+  &3 {
+    font-size: 4rem;
+  }
+  &4 {
+    font-size: 3.5rem;
+  }
+  &5 {
+    font-size: 3rem;
+  }
+  &6 {
+    font-size: 2rem;
+  }
+}
+
+// Font width
+.f-w-1 {
+  display: block;
+  max-width: 380px;
+}
+
+.f-w-2 {
+  display: block;
+  max-width: 480px;
+}
+.f-w-3 {
+  display: block;
+  padding: 0 1rem;
+  max-width: 680px;
+}

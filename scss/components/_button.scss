@@ -1,0 +1,58 @@
+.dk-btn-outline-light,
+.dk-btn-primary,
+.dk-btn-secondary {
+  --bs-btn-padding-x: 22px;
+  --bs-btn-padding-y: 12px;
+  --bs-btn-border-width: 0;
+  --bs-btn-border-radius: 0;
+
+  z-index: 1;
+  position: relative;
+  transition: color 0.4s ease;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    transition: width 0.2s ease;
+    z-index: -1;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+}
+
+.dk-btn-primary {
+  --bs-btn-bg: #{$dk-primary};
+  --bs-btn-color: #{$dk-secondary};
+  --bs-btn-hover-bg: #{$dk-primary};
+  --bs-btn-hover-color: #fff;
+  
+  &::after {
+    background-color: $dk-secondary;
+  }
+}
+
+.dk-btn-secondary {
+  --bs-btn-bg: #{$dk-secondary};
+  --bs-btn-color: #{$dk-light};
+  --bs-btn-hover-bg: #{$dk-secondary};
+  --bs-btn-hover-color: #{$dk-secondary};
+
+  &::after {
+    background-color: $dk-primary;
+  }
+}
+
+.dk-btn-outline-light {
+  --bs-btn-color: #{$dk-light};
+  outline: 1px solid $dk-light; 
+
+  &::after {
+    background-color: $dk-light; 
+  }
+}

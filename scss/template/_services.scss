@@ -1,0 +1,13 @@
+.services {
+  .card {
+    --border-color-card: #e4e4e4;
+
+    border: 1px solid var(--border-color-card);
+    border-radius: 0;
+    padding: 2rem 1.8rem;
+    height: 100%;
+  }
+  img {
+    width: 70px;
+  }
+}

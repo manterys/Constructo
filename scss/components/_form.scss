@@ -1,0 +1,29 @@
+.form-control {
+  --bs-border-radius: 0;
+
+  padding: 1.2rem;
+
+  &::placeholder {
+    color: $dk-info;
+  }
+}
+
+textarea {
+  resize:none
+}
+
+// Alert
+.alerts {
+  position: absolute;
+  margin-top: 1rem;
+}
+.alert-success,
+.alert-error {
+  display: none;
+}
+.alert-success {
+  color: #198754;
+}
+.alert-error {
+  color: #dc3545;
+}

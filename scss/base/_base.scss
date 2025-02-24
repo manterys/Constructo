@@ -1,0 +1,17 @@
+html {
+  &.no-js .preloader {
+    display: none;
+  }
+  &.preload .page-wrapper {
+    opacity: 0;
+  }
+
+  &.loaded {
+    .preloader{
+      opacity: 0;
+    }
+    .page-wrapper {
+      opacity: 1;
+    }
+  }
+}

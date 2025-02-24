@@ -1,0 +1,55 @@
+.hero .swiper-slide {
+  z-index: 0;
+  position: relative;
+  height: 80vh;
+
+  @media (min-width: 992px) {
+    height: 90vh;
+  }
+  
+    &.hero-slider-one {
+      background: url('../images/hero/hero-01.jpeg') no-repeat center center / cover;
+    }
+    &.hero-slider-two {
+      background: url('../images/hero/hero-02.jpeg') no-repeat center center / cover;
+    }
+    &.hero-slider-three {
+      background: url('../images/hero/hero-03.jpeg') no-repeat center center / cover;
+    }
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(27, 39, 61, 0.6);
+    z-index: -1;
+  }
+}
+
+  p {
+    font-size: 1.8rem;
+  }
+
+
+.swiper {
+  .swiper-pagination {
+    bottom: 40px;
+  }
+
+  .swiper-pagination-bullet {
+    opacity: 1;
+    margin: 0 6px;
+    background-color: transparent;
+    width: 12px;
+    height: 12px;
+    border: 2px solid $dk-primary;
+    transition: background-color 0.2s ease;
+
+    &-active {
+      background-color: $dk-primary;
+    }
+  }
+}

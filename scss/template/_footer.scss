@@ -1,0 +1,67 @@
+.footer iframe {
+  height: 400px;
+
+  @media (min-width: 1200px) {
+    height: 800px;
+  }
+}
+
+.footer-right {
+
+  @media (min-width: 1200px) {
+    max-width: 580px;
+  }
+  
+}
+
+
+.footer-bottom {
+  p {
+    font-size: 1rem;
+    color: $dk-dark;
+    margin-bottom: 0;
+
+    a {
+      color: $dk-dark;
+
+      &:hover {
+        color: $dk-primary;
+      }
+    }
+  }
+
+  .head-office {
+    position: relative;
+
+    &:after {
+      content: "Główne biuro";
+      white-space: nowrap;
+      font-size: 14px;
+      position: absolute;
+      top: -16px;
+      right: 0;
+      padding: 0.2rem 0.4rem;
+      transform: translateX(100%);
+      background: $dk-primary;
+    }
+  }
+}
+
+.copyright {
+  img {
+    width: 150px;
+  }
+  span {
+    color: #C7C7C7;
+  }
+
+  .social-media a {
+    padding-right: 0;
+    margin: 0 1rem;
+    
+    @media (min-width: 992px) {
+      padding-right: 1.4rem;
+      margin: 0;
+    }
+  }
+}

@@ -1,0 +1,39 @@
+.logos .container{
+  position: relative;
+
+  @media (min-width: 992px) {
+    &::after {
+      content: url("../images/elements/element-light.svg");
+      position: absolute;
+      top: -80px;
+      right: 0px;
+    }
+  }
+}
+
+.logos .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  padding: 0.8rem;
+  background-color: rgba(255,255,255,0.1);
+  transition: background-color 1s ease;
+
+  @media (min-width: 576px) {
+    height: 90px;
+  }
+
+  &:hover {
+    background-color: $dk-primary;
+  }
+
+  path {
+    transition: fill 1s ease;
+  }
+
+  &:hover path {
+    fill: $dk-secondary;
+  }
+
+}

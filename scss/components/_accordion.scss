@@ -1,0 +1,44 @@
+.accordion-item {
+  margin-bottom: 0.6rem;
+  position: relative;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background-color: $dk-primary;
+    z-index: 10;
+  }
+
+  .accordion-button {
+    font-size: 0.9rem;
+    padding-left: 1rem;
+
+    @media (min-width: 768px) {
+      font-size: 1rem;
+    }
+  }
+
+  .accordion-body {
+    padding-top: 0rem;
+    padding-bottom: 1.8rem;
+    padding-right: 4rem;
+    padding-left: 1rem;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    color: #505867;
+  }
+
+  @media (min-width: 768px) {
+    .accordion-button {
+      padding-left: 2.4rem;
+    }
+  
+    .accordion-body {
+      padding-left: 2.4rem;
+    }
+  }
+}

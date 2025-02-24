@@ -1,0 +1,73 @@
+// $dk is Damiankoduje.pl variables
+$dk-primary: #FFB600;
+$dk-secondary: #1B273D;
+$dk-info: #8C94A2;
+$dk-danger: #BC1615;
+$dk-light: #ffffff;
+$dk-dark: #505867;
+$dk-gray: #F5F5F5;
+
+
+body {
+  --bs-body-font-family: 'Poppins', sans-serif;
+  --bs-body-font-size: 0.9rem;
+  
+  p {
+    font-family: 'Lato', sans-serif;
+  }
+}
+
+// Navbar
+.navbar {
+  --bs-navbar-toggler-focus-width: 0;
+  --bs-navbar-toggler-border-color: none;
+  --bs-navbar-toggler-border-color: none;
+  --bs-navbar-toggler-padding-x: 0.4rem;
+  --bs-navbar-toggler-padding-y: 0;
+  --bs-navbar-brand-margin-end: 0;
+  --bs-navbar-brand-padding-y: 0;
+}
+.nav-link {
+  --bs-navbar-nav-link-padding-x: 16px;
+  --bs-nav-link-color: #{$dk-light};
+  --bs-navbar-active-color: #{$dk-primary};
+  --bs-nav-link-hover-color:#{$dk-primary};
+  --bs-nav-link-font-weight: 400;
+  --bs-nav-link-font-size: 1.4rem;
+  
+  @media (min-width: 992px) {
+    --bs-nav-link-font-size: 0.9rem;
+  }
+  @media (min-width: 1200px) {
+    --bs-navbar-nav-link-padding-x: 22px;
+  }
+}
+
+.offcanvas {
+  --bs-offcanvas-width: 100vw;
+
+  @media (min-width: 576px) {
+    --bs-offcanvas-width: 75vw;
+  }
+  @media (min-width: 768px) {
+    --bs-offcanvas-width: 45vw;
+  }
+  --bs-offcanvas-padding-x: 2rem;
+
+  .btn-close {
+    --bs-btn-close-bg: url('../images/icon/close-btn-icon.svg');
+    --bs-btn-close-opacity: 1;
+  }
+}
+
+// Accordion
+.accordion {
+  --bs-accordion-btn-icon-width: 30px;
+  --bs-accordion-btn-icon: url("../images/icon/accordion-icon.svg");
+  --bs-accordion-btn-active-icon: url("../images/icon/accordion-active-icon.svg");
+  --bs-accordion-btn-icon-transform: none;
+  --bs-accordion-btn-focus-box-shadow: 0;
+}
+.accordion-button:not(.collapsed) {
+  --bs-accordion-active-bg: none;
+}
